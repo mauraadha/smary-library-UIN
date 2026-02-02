@@ -1,18 +1,17 @@
-# 🏛️ Smart Library Integration Architecture
-### Enterprise Architecture Design using TOGAF ADM & REST API
+# Smart Library Integration Architecture
+### Enterprise Architecture Design using TOGAF ADM
 
 ![Status](https://img.shields.io/badge/Status-Completed-success)
-![Role](https://img.shields.io/badge/Role-System%20Analyst-blue)
-![Framework](https://img.shields.io/badge/Framework-TOGAF%20ADM-orange)
+![Framework](https://img.shields.io/badge/Framework-TOGAF%20ADM-blue)
 
-## 📖 Executive Summary
+## Executive Summary
 This project outlines the Enterprise Architecture (EA) design for transforming the library services at **UIN Syarif Hidayatullah Jakarta**.
 
 The core objective was to solve the data silo problem between the **Academic Information System (AIS)** and the **Library Management System (LMS)**. By designing a real-time integration architecture, this solution enables a **Self-Service Kiosk** ecosystem where students can validate their membership instantly using their Student ID (KTM), eliminating manual paperwork.
 
 ---
 
-## 🚩 The Challenge (The "Before" State)
+## The Challenge (The "Before" State)
 Based on business process analysis, the library faced significant operational bottlenecks:
 * **Data Silos:** The library system did not have direct access to the university's active student database.
 * **Manual Redundancy:** Students had to fill out physical forms to register as library members, even though they were already enrolled in the university.
@@ -20,7 +19,7 @@ Based on business process analysis, the library faced significant operational bo
 
 ---
 
-## 💡 The Solution (Architecture Vision)
+## The Solution (Architecture Vision)
 I utilized the **TOGAF ADM (Architecture Development Method)** to design a holistic solution.
 
 ### 1. The Core Concept
@@ -36,7 +35,7 @@ The architecture bridges the frontend (Kiosk) and backend (Academic Database) us
 
 ---
 
-## 🧠 Technical Specifications
+## Technical Specifications
 
 ### A. Integration Logic (API Design)
 As the System Analyst, I defined the **API Contract** to ensure the Kiosk and Academic System communicate standard JSON data.
@@ -69,7 +68,7 @@ As the System Analyst, I defined the **API Contract** to ensure the Kiosk and Ac
 
 ---
 
-## 📉 Business Process Improvement
+## Business Process Improvement
 We modeled the efficiency gains using **BPMN** (Business Process Model and Notation).
 
 | Metric | Traditional Process | Smart Library Process (Proposed) | Improvement |
@@ -81,7 +80,7 @@ We modeled the efficiency gains using **BPMN** (Business Process Model and Notat
 
 ---
 
-## 🛠️ Tools & Standards Used
+## Tools & Standards Used
 * **Framework:** TOGAF ADM (Preliminary to Technology Phase).
 * **Modeling Tools:** Draw.io / Python (for architecture diagrams).
 * **Documentation:** UML (Use Case, Class Diagram, Sequence Diagram).
@@ -90,7 +89,7 @@ We modeled the efficiency gains using **BPMN** (Business Process Model and Notat
 
 ---
 
-## 📄 Documentation Reference
+## Documentation Reference
 This repository contains the digital artifacts of the analysis:
 * 📂 `/diagrams` - High-resolution UML and TOGAF diagrams.
 * 📂 `/docs` - The comprehensive PDF report of the architecture design.
